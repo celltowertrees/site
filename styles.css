@@ -5,3 +5,14 @@ body {
 .header {
   text-align: center;
 }
+
+.section--e-meter__photos,
+.section--phones__photos {
+  display: flex;
+}
+
+/* too bad im not using a compiler eh */
+.section--e-meter__photos img,
+.section--phones__photos img {
+  flex: 1 1 33%;
+}
