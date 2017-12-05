@@ -6,13 +6,31 @@ body {
   text-align: center;
 }
 
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
 .section--e-meter__photos,
 .section--phones__photos {
   display: flex;
+  justify-content: center;
 }
 
 /* too bad im not using a compiler eh */
-.section--e-meter__photos img,
-.section--phones__photos img {
-  flex: 1 1 33%;
+.section--e-meter__photos .item,
+.section--phones__photos .item {
+  flex-shrink: 3;
+  margin: 1rem;
+}
+
+@media (max-width: 700px) {
+  .section--e-meter__photos .item,
+  .section--phones__photos .item {
+    flex-shrink: 1;
+  }
+}
+
+.item img {
+  width: 100%;
 }
