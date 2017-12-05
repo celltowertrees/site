@@ -9,17 +9,25 @@
     <script src="/script.js" defer></script>
   </head>
   <body>
-    <header>
+    <header class="header">
       <h1>Kelly Monson</h1>
       <h2>
         Welcome To My Popup Portfolio
       </h2>
-      <h3>
-        <a href="http://kellymonson.biz">Business Website</a>
-      </h3>
-      <h3>
-        <a href="http://github.com/celltowertrees">Github</a>
-      </h3>
+      
+      <div class="header__website">
+        <h3>
+          <a href="http://kellymonson.biz">Business Website</a>
+        </h3>
+        <span class="detail">Site used for my web development portfolio that also features a generative piece I made</span>
+      </div>
+      
+      <div class="header__github">
+        <h3>
+          <a href="http://github.com/celltowertrees">Github</a>
+        </h3>
+        <span class="detail">Contains a lot of half-baked yet well-intentioned code projects</span>
+      </div>
     </header>
     <main class="main">
       <h1>
@@ -27,11 +35,22 @@
       </h1>
       
       <section class="section--e-meter">
-        e-meter
+        <h2>
+          E-METER
+        </h2>
+        <p>
+          At <a href="https://tisch.nyu.edu/itp/itp-events-gallery/itp-camp-2017">ITP camp 2017</a> I attempted to recreate the "stress detector test"
+          used by Scientologists to attempt to convert people to their church. It uses a heart rate monitor on one finger and a skin resistance monitor for the other two.
+        </p>
       </section>
       
       <section class="section--phones">
-        phones
+        <h2>
+          PHONES
+        </h2>
+        <p>
+          These are phone prototypes from other dimensions. They do nothing.
+        </p>
       </section>
     </main>
   </body>
