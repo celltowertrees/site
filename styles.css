@@ -9,13 +9,40 @@ a {
   text-decoration: none;
 }
 
+.em {
+  height: 1.4rem;
+  width: 1.4rem;
+}
+
 .header {
   text-align: center;
 }
 
+.marquee h2 {
+  font-style: italic;
+  font-weight: 400;
+  color: #FFBF00;
+}
+
 .container {
   max-width: 1000px;
-  margin: 0 auto 6rem;
+  margin: 0 3rem 6rem;
+}
+
+.hr {
+  max-width: 200px;
+  height: auto;
+  margin: 0 auto;
+}
+
+.main {
+  margin-top: 2rem;
+}
+
+.main .title {
+  text-align: center;
+  font-weight: bold;
+  font-style: italic;
 }
 
 .section--e-meter,
@@ -51,4 +78,12 @@ a {
 
 .item img {
   width: 100%;
+}
+
+.bottom {
+  text-align: center;
+}
+
+.bottom hr {
+  margin: 3rem;
 }
