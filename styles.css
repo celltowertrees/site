@@ -26,7 +26,7 @@ a {
 
 .container {
   max-width: 1000px;
-  margin: 0 3rem 6rem;
+  margin: 0 1rem 6rem;
 }
 
 .hr {
@@ -57,7 +57,9 @@ a {
 }
 
 @media (min-width: 700px) {
-  
+  .container {
+    margin: 0 auto 6rem;
+  }
   .section--e-meter__photos,
   .section--phones__photos {
     display: flex;
