@@ -18,6 +18,17 @@ a {
   text-align: center;
 }
 
+.header .desc {
+  text-transform: uppercase;
+  font-family: serif;
+  margin-bottom: 2rem;
+  color: #CB2EFF;
+}
+
+.header h2 {
+  margin-bottom: 0rem;
+}
+
 .marquee h2 {
   font-style: italic;
   font-weight: 400;
