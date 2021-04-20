@@ -22,6 +22,13 @@ a {
 
 .bigmessage {
     background-color: #ddd;
+    text-align: center;
+}
+
+.bigmessage img {
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
 }
 
 .bigmessage__container {
@@ -34,4 +41,10 @@ a {
 .bigmessage__words {
     color: #fff;
     font-size: 2rem;
+    font-style: italic;
+}
+
+.bigmessage__words h1 {
+    margin-bottom: 1em;
+    text-shadow: rgb(247, 90, 226) -1px 1px 5px;
 }
